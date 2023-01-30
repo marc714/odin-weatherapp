@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+        </style>
+    <script src="./main.js" defer></script>
+</head>
+<body id="body">
+    <form id="search">
+        <label for="city">City</label>
+        <input id="city-field" name="city" type="text" placeholder="Irvine" required>
+        <label for="state">State</label>
+        <input id="state-field" type="state" type="text" placeholder="CA" minlength="2" maxlength="2" required>
+        <button id="submit" type="submit">Search</button>
+    </form>
+    
+    <div id="results">
+        <div class="city"></div>
+        <div class="main"></div>
+        <div class="description"></div>
+        <div class="temp"></div>
+    </div>
+</body>
+</html>

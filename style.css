@@ -1,0 +1,26 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.city {
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
+
+.main {
+    font-size: 10rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.description {
+    font-size: 15rem;
+    font-weight: 300;
+}
+
+.temp {
+    text-transform: lowercase;
+    font-size: 4rem;
+    font-weight: 300;
+}
